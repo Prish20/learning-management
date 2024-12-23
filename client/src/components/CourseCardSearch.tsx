@@ -9,7 +9,7 @@ const CourseCardSearch = ({
     onClick
 }: SearchCourseCardProps) => {
     return (
-        <div onClick={onClick} className={`course-card--search group ${isSelected ? 'course-card--selected' : 'course-card--unselected'}`}>
+        <div onClick={onClick} className={`course-card--search group ${isSelected ? 'course-card-search--selected' : 'course-card-search--unselected'}`}>
             <div className="course-card-search__image-container">
                 <Image src={course.image || "/placeholder.png"} alt={course.title} fill sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw' className='course-card-search__image' />
             </div>

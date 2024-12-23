@@ -144,7 +144,7 @@ input[type="color"] {
 
 /* Search Page */
 .search {
-  @apply flex flex-col bg-background text-foreground h-full mx-auto w-3/4;
+  @apply flex flex-col text-white-100 h-full mx-auto w-3/4;
 }
 
 .search__title {
@@ -1028,7 +1028,7 @@ input[type="color"] {
 }
 
 .course-card-search--selected {
-  @apply border-primary-600;
+  @apply border-2 border-primary-600;
 }
 
 .course-card-search--unselected {
@@ -1101,7 +1101,7 @@ input[type="color"] {
 
 /* Loading */
 .loading {
-  @apply fixed inset-0 flex gap-2 items-center justify-center bg-background/50;
+  @apply fixed inset-0 flex gap-2 items-center justify-center
 }
 
 .loading__spinner {
